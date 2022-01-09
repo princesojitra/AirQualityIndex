@@ -1,0 +1,5 @@
+github "DenTelezhkin/DTModelStorage" "10.0.0"
+github "DenTelezhkin/DTTableViewManager" "10.0.0"
+github "SnapKit/SnapKit" "5.0.1"
+github "daltoniam/Starscream" "4.0.4"
+github "danielgindi/Charts" "v4.0.1"

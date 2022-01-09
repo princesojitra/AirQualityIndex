@@ -1,0 +1,4 @@
+github "daltoniam/Starscream" >= 4.0.0
+github "DenTelezhkin/DTTableViewManager" "10.0.0"
+github "danielgindi/Charts" ~> 4.0.0
+github "SnapKit/SnapKit" ~> 5.0.0

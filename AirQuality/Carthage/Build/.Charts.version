@@ -1,0 +1,19 @@
+{
+  "commitish" : "v4.0.1",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)",
+      "hash" : "a0a2356c649ddeec73f4f04a5ab1821f08b5831706315510f3dec3f16cb729b3",
+      "name" : "Charts",
+      "container" : "Charts.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)",
+      "hash" : "56b98bf253c8fea801bd1f06f8814fe5484bec50da4a0367d8ed0c92b50032c2",
+      "name" : "Charts",
+      "container" : "Charts.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}

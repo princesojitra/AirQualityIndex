@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EventReaction Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/EventReaction" class="dashAnchor"></a>
+
+    <a title="EventReaction Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          DTModelStorage 10.0.0-beta.1 Docs
+        </a>
+         (84% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/DenTelezhkin/DTModelStorage">
+            <img class="header-icon" src="../img/gh.png" alt="GitHub"/>
+            View on GitHub
+          </a>
+        </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://https%3A%2F%2Fdentelezhkin.github.io%2FDTModelStorage%2Fdocsets%2FDTModelStorage.xml">
+            <img class="header-icon" src="../img/dash.png" alt="Dash"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">DTModelStorage Reference</a>
+      <img class="carat" src="../img/carat.png" alt=""/>
+      EventReaction Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseSupplementaryStorage.html">BaseSupplementaryStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BaseUpdateDeliveringStorage.html">BaseUpdateDeliveringStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CoreDataStorage.html">CoreDataStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/EventReaction.html">EventReaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/FiveArgumentsEventReaction.html">FiveArgumentsEventReaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/FourArgumentsEventReaction.html">FourArgumentsEventReaction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MemoryStorage.html">MemoryStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MemoryStorageAnomalyHandler.html">MemoryStorageAnomalyHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SectionModel.html">SectionModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SingleSectionEquatableStorage.html">SingleSectionEquatableStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SingleSectionHashableStorage.html">SingleSectionHashableStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SingleSectionStorage.html">SingleSectionStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/StorageUpdate.html">StorageUpdate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ViewModelMapping.html">ViewModelMapping</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global%20Variables.html#/s:14DTModelStorage31DTTableViewElementSectionFooterSSvp">DTTableViewElementSectionFooter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Global%20Variables.html#/s:14DTModelStorage31DTTableViewElementSectionHeaderSSvp">DTTableViewElementSectionHeader</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ChangeType.html">ChangeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MappingCondition.html">MappingCondition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MemoryStorageAnomaly.html">MemoryStorageAnomaly</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MemoryStorageError.html">MemoryStorageError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MemoryStorageError/InsertionReason.html">– InsertionReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MemoryStorageError/SearchReason.html">– SearchReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/RuntimeHelper.html">RuntimeHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/SingleSectionOperation.html">SingleSectionOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ViewType.html">ViewType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/UINib.html">UINib</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/AccumulationStrategy.html">AccumulationStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/AnomalyHandler.html">AnomalyHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/EntityIdentifiable.html">EntityIdentifiable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/EquatableDiffingAlgorithm.html">EquatableDiffingAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/HashableDiffingAlgorithm.html">HashableDiffingAlgorithm</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ModelTransfer.html">ModelTransfer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/Section.html">Section</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SectionLocatable.html">SectionLocatable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SectionLocationIdentifyable.html">SectionLocationIdentifyable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/Storage.html">Storage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/StorageUpdating.html">StorageUpdating</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/SupplementaryStorage.html">SupplementaryStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ViewModelMappingProtocol.html">ViewModelMappingProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/AdditiveAccumulationStrategy.html">AdditiveAccumulationStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/DeleteOldValuesAccumulationStrategy.html">DeleteOldValuesAccumulationStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/UpdateOldValuesAccumulationStrategy.html">UpdateOldValuesAccumulationStrategy</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>EventReaction</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">EventReaction</span></code></pre>
+
+                </div>
+              </div>
+            <p>Data holder for reaction</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC8reactionypyp_ypyptcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/reaction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC8reactionypyp_ypyptcSgvp">reaction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>3 arguments reaction block with all arguments type-erased.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">reaction</span><span class="p">:</span> <span class="p">((</span><span class="kt">Any</span><span class="p">,</span> <span class="kt">Any</span><span class="p">,</span> <span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC15methodSignatureSSvp"></a>
+                    <a name="//apple_ref/swift/Property/methodSignature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC15methodSignatureSSvp">methodSignature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Objective-C method signature</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">methodSignature</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC8viewType05modelF09signature_ACxm_q_mSSq0_x_q_10Foundation9IndexPathVtctcr1_lufc"></a>
+                    <a name="//apple_ref/swift/Method/init(viewType:modelType:signature:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC8viewType05modelF09signature_ACxm_q_mSSq0_x_q_10Foundation9IndexPathVtctcr1_lufc">init(viewType:<wbr>modelType:<wbr>signature:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates reaction with <code>signature</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">View</span><span class="p">,</span> <span class="kt">ModelType</span><span class="p">,</span> <span class="kt">ReturnType</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">viewType</span><span class="p">:</span> <span class="kt">View</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span>
+                                        <span class="nv">modelType</span><span class="p">:</span> <span class="kt">ModelType</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span>
+                                        <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                                        <span class="n">_</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">View</span><span class="p">,</span> <span class="kt">ModelType</span><span class="p">,</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ReturnType</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC9modelType9signature_ACxm_SSq_x_10Foundation9IndexPathVtctcr0_lufc"></a>
+                    <a name="//apple_ref/swift/Method/init(modelType:signature:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC9modelType9signature_ACxm_SSq_x_10Foundation9IndexPathVtctcr0_lufc">init(modelType:<wbr>signature:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates reaction with <code>signature</code>, <code>viewType</code> and <code>modelType</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">ModelType</span><span class="p">,</span> <span class="kt">ReturnType</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">modelType</span><span class="p">:</span> <span class="kt">ModelType</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                                   <span class="n">_</span> <span class="nv">block</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">ModelType</span><span class="p">,</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ReturnType</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC9signature_ACSS_xyctclufc"></a>
+                    <a name="//apple_ref/swift/Method/init(signature:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC9signature_ACSS_xyctclufc">init(signature:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates no argument event reaction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">ReturnType</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">closure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">ReturnType</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>signature</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Event method signature</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>closure to execute</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC8argument9signature_ACxm_SSq_xctcr0_lufc"></a>
+                    <a name="//apple_ref/swift/Method/init(argument:signature:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC8argument9signature_ACxm_SSq_xctcr0_lufc">init(argument:<wbr>signature:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a single argument event reaction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">Argument</span><span class="p">,</span> <span class="kt">ReturnType</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">argument</span><span class="p">:</span> <span class="kt">Argument</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">closure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Argument</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ReturnType</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>argument</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Argument type</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>signature</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Event method signature.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>closure to execute</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC11argumentOne0E3Two9signature_ACxm_q_mSSq0_x_q_tctcr1_lufc"></a>
+                    <a name="//apple_ref/swift/Method/init(argumentOne:argumentTwo:signature:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC11argumentOne0E3Two9signature_ACxm_q_mSSq0_x_q_tctcr1_lufc">init(argumentOne:<wbr>argumentTwo:<wbr>signature:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates two argument event reaction</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">ArgumentOne</span><span class="p">,</span> <span class="kt">ArgumentTwo</span><span class="p">,</span> <span class="kt">ReturnType</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">argumentOne</span><span class="p">:</span> <span class="kt">ArgumentOne</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span>
+                                                  <span class="nv">argumentTwo</span><span class="p">:</span> <span class="kt">ArgumentTwo</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span>
+                                                  <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                                                  <span class="n">_</span> <span class="nv">closure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">ArgumentOne</span><span class="p">,</span> <span class="kt">ArgumentTwo</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ReturnType</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>argumentOne</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>First argument type</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>argumentTwo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Second argument type</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>signature</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Event method signature</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>closure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Closure to execute.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC20performWithArgumentsyypyp_ypypt_tF"></a>
+                    <a name="//apple_ref/swift/Method/performWithArguments(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC20performWithArgumentsyypyp_ypypt_tF">performWithArguments(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs reaction with <code>arguments</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">performWithArguments</span><span class="p">(</span><span class="n">_</span> <span class="nv">arguments</span><span class="p">:</span> <span class="p">(</span><span class="kt">Any</span><span class="p">,</span> <span class="kt">Any</span><span class="p">,</span> <span class="kt">Any</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="kt">Any</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC08unmappedD04from9signatureACSgSayACG_SStFZ"></a>
+                    <a name="//apple_ref/swift/Method/unmappedReaction(from:signature:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC08unmappedD04from9signatureACSgSayACG_SStFZ">unmappedReaction(from:<wbr>signature:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Searches for reaction using specified parameters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">unmappedReaction</span><span class="p">(</span><span class="n">from</span> <span class="nv">reactions</span><span class="p">:</span> <span class="p">[</span><span class="kt">EventReaction</span><span class="p">],</span>
+                     <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">EventReaction</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC015performUnmappedD04from_ypSgSayACG_SStFZ"></a>
+                    <a name="//apple_ref/swift/Method/performUnmappedReaction(from:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC015performUnmappedD04from_ypSgSayACG_SStFZ">performUnmappedReaction(from:<wbr>_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Perform zero argument event reaction</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">performUnmappedReaction</span><span class="p">(</span><span class="n">from</span> <span class="nv">reactions</span><span class="p">:</span> <span class="p">[</span><span class="kt">EventReaction</span><span class="p">],</span>
+                                    <span class="n">_</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC015performUnmappedD04from_8argumentypSgSayACG_SSxtlFZ"></a>
+                    <a name="//apple_ref/swift/Method/performUnmappedReaction(from:_:argument:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC015performUnmappedD04from_8argumentypSgSayACG_SSxtlFZ">performUnmappedReaction(from:<wbr>_:<wbr>argument:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Perform single argument event reaction</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="n">performUnmappedReaction</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">from</span> <span class="nv">reactions</span><span class="p">:</span> <span class="p">[</span><span class="kt">EventReaction</span><span class="p">],</span> <span class="n">_</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">argument</span><span class="p">:</span> <span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC015performUnmappedD04from_11argumentOne0H3TwoypSgSayACG_SSxq_tr0_lFZ"></a>
+                    <a name="//apple_ref/swift/Method/performUnmappedReaction(from:_:argumentOne:argumentTwo:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC015performUnmappedD04from_11argumentOne0H3TwoypSgSayACG_SSxq_tr0_lFZ">performUnmappedReaction(from:<wbr>_:<wbr>argumentOne:<wbr>argumentTwo:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Perform two argument event reaction</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="n">performUnmappedReaction</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">,</span> <span class="kt">U</span><span class="o">&gt;</span><span class="p">(</span><span class="n">from</span> <span class="nv">reactions</span><span class="p">:</span> <span class="p">[</span><span class="kt">EventReaction</span><span class="p">],</span> <span class="n">_</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">argumentOne</span><span class="p">:</span> <span class="kt">T</span><span class="p">,</span> <span class="nv">argumentTwo</span><span class="p">:</span> <span class="kt">U</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC8reaction4from9signature8forModel2at4view17supplementaryKindACSgSayAA04ViewI15MappingProtocol_pG_SSyp10Foundation9IndexPathVSo6UIViewCSgSSSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/reaction(from:signature:forModel:at:view:supplementaryKind:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC8reaction4from9signature8forModel2at4view17supplementaryKindACSgSayAA04ViewI15MappingProtocol_pG_SSyp10Foundation9IndexPathVSo6UIViewCSgSSSgtFZ">reaction(from:<wbr>signature:<wbr>forModel:<wbr>at:<wbr>view:<wbr>supplementaryKind:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Searches for reaction using specified parameters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">reaction</span><span class="p">(</span><span class="n">from</span> <span class="nv">mappings</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/ViewModelMappingProtocol.html">ViewModelMappingProtocol</a></span><span class="p">],</span>
+                     <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+                     <span class="n">forModel</span> <span class="nv">model</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span>
+                     <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span>
+                     <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?,</span>
+                     <span class="nv">supplementaryKind</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">EventReaction</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC07performD04from9signature4view5model8location17supplementaryKindypSayAA24ViewModelMappingProtocol_pG_SSypSgyp10Foundation9IndexPathVSSSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/performReaction(from:signature:view:model:location:supplementaryKind:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC07performD04from9signature4view5model8location17supplementaryKindypSayAA24ViewModelMappingProtocol_pG_SSypSgyp10Foundation9IndexPathVSSSgtFZ">performReaction(from:<wbr>signature:<wbr>view:<wbr>model:<wbr>location:<wbr>supplementaryKind:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs reaction of <code>type</code>, <code>signature</code>, with <code>view</code>, <code>model</code> in <code>location</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">performReaction</span><span class="p">(</span><span class="n">from</span> <span class="nv">mappings</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/ViewModelMappingProtocol.html">ViewModelMappingProtocol</a></span><span class="p">],</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?,</span> <span class="nv">model</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="nv">location</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="nv">supplementaryKind</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC017perform4ArgumentsD04from9signature8argument4view5model8locationypSayAA24ViewModelMappingProtocol_pG_SSypypSgyp10Foundation9IndexPathVtFZ"></a>
+                    <a name="//apple_ref/swift/Method/perform4ArgumentsReaction(from:signature:argument:view:model:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC017perform4ArgumentsD04from9signature8argument4view5model8locationypSayAA24ViewModelMappingProtocol_pG_SSypypSgyp10Foundation9IndexPathVtFZ">perform4ArgumentsReaction(from:<wbr>signature:<wbr>argument:<wbr>view:<wbr>model:<wbr>location:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs reaction of <code>type</code>, <code>signature</code>, with <code>argument</code>, <code>view</code>, <code>model</code> in <code>location</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">perform4ArgumentsReaction</span><span class="p">(</span><span class="n">from</span> <span class="nv">mappings</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/ViewModelMappingProtocol.html">ViewModelMappingProtocol</a></span><span class="p">],</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">argument</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?,</span> <span class="nv">model</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="nv">location</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14DTModelStorage13EventReactionC017perform5ArgumentsD04from9signature13firstArgument06secondJ04view5model8locationypSayAA24ViewModelMappingProtocol_pG_SSypypypSgyp10Foundation9IndexPathVtFZ"></a>
+                    <a name="//apple_ref/swift/Method/perform5ArgumentsReaction(from:signature:firstArgument:secondArgument:view:model:location:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14DTModelStorage13EventReactionC017perform5ArgumentsD04from9signature13firstArgument06secondJ04view5model8locationypSayAA24ViewModelMappingProtocol_pG_SSypypypSgyp10Foundation9IndexPathVtFZ">perform5ArgumentsReaction(from:<wbr>signature:<wbr>firstArgument:<wbr>secondArgument:<wbr>view:<wbr>model:<wbr>location:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Performs reaction of <code>type</code>, <code>signature</code>, with <code>firstArgument</code>, <code>secondArgument</code>, <code>view</code>, <code>model</code> in <code>location</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">perform5ArgumentsReaction</span><span class="p">(</span><span class="n">from</span> <span class="nv">mappings</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/ViewModelMappingProtocol.html">ViewModelMappingProtocol</a></span><span class="p">],</span> <span class="nv">signature</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">firstArgument</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="nv">secondArgument</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?,</span> <span class="nv">model</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span> <span class="nv">location</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2021 <a class="link" href="https://github.com/DenTelezhkin" target="_blank" rel="external noopener">Denys Telezhkin</a>. All rights reserved. (Last updated: 2021-10-14)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>

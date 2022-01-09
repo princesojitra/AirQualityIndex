@@ -1,0 +1,19 @@
+{
+  "commitish" : "10.0.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)",
+      "hash" : "d54b12077133d7a10eaba7b4a35c77c34642339df0f00cefc98a3d7b65a1c58d",
+      "name" : "DTTableViewManager",
+      "container" : "DTTableViewManager.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)",
+      "hash" : "b10e888a0edc84e9bb88d84fd44c46c7d9290c3607e1ab3845073de177e476c7",
+      "name" : "DTTableViewManager",
+      "container" : "DTTableViewManager.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}

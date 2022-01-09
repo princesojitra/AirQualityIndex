@@ -1,0 +1,19 @@
+{
+  "commitish" : "10.0.0",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)",
+      "hash" : "eebb87524f6f524528117f79bdae6d280017489aba2e725db3689a66276b05f1",
+      "name" : "DTModelStorage",
+      "container" : "DTModelStorage.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "swiftToolchainVersion" : "5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)",
+      "hash" : "42d3b58169c79fbc83b156ccf223a4edd2e2ce6ebcd888b18ff229286ee4464a",
+      "name" : "DTModelStorage",
+      "container" : "DTModelStorage.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ]
+}
