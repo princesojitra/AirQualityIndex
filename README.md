@@ -1,6 +1,6 @@
 # AirQualityIndex
 
-AQI is an app to monitor realtime air quality index for different cities using Web-Socket.
+AQI is an app to monitor realtime air quality index for different cities using Web-Socket
 
 ## Screenshots
 
